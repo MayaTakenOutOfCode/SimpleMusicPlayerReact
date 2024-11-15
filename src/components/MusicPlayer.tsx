@@ -58,6 +58,7 @@ export default function MusicPlayer() {
 
   return (
     <div style={{ width: "80%", margin: "auto", textAlign: "center" }}>
+        <h1>Name Of <br />File </h1>
       <audio ref={audioRef} src="/song1.mp3" style={{ display: "none" }}></audio>
       <ProgressBar
         audioRef={audioRef}
