@@ -6,15 +6,15 @@
   background-color: rgb(22, 21, 21);
 }
 
-/* global.css */
+
 h1 {
-  font-size: 2.5rem; /* Adjust as needed */
-  color: #fff; /* Text color */
+  font-size: 2.5rem; 
+  color: #fff; 
   text-shadow: 
-    0 0 5px #b6aaaa,   /* Inner glow */
-    0 0 10px #fff9ff,  /* Medium glow */
-    0 0 20px #ffe5ff,  /* Outer glow */
-    0 0 40px #ffffff;  /* distant glow */
+    0 0 5px #b6aaaa,   
+    0 0 10px #fff9ff,  
+    0 0 20px #ffe5ff,  
+    0 0 40px #ffffff;  
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease;
