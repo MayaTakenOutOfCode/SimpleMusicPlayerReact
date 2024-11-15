@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+
 
 interface ProgressBarProps {
   audioRef: React.RefObject<HTMLAudioElement | null>;
@@ -17,8 +17,8 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ audioRef, currentTime, durati
         value={(currentTime / duration) * 100 || 0}
         onChange={(e) => onSeek(Number(e.target.value))}
         style={{
-          width: "100%",
-          height: "10px",
+          width: "50%",
+          height: "5px",
           appearance: "none",
           backgroundColor: "#ddd",
           borderRadius: "5px",
